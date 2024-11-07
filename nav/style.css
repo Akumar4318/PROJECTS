@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    list-style: none;
+}
+.navbar{
+    border: solid black 2px;
+    background-color: rgb(220, 199, 239);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    box-shadow: 2px 2px 30px red;
+}
+
+#navitem{
+
+    display: flex;
+
+    
+   
+    /* align-items: center; */
+    /* border: 1px solid green; */
+    margin-top: 5px;
+    gap: 20px;
+
+}
+.navitem{
+   
+    /* align-items: center; */
+    margin-top: 5px;
+    margin-right: 20px;
+    justify-content: space-around;
+    font-size: larger;
+
+    font-style: none;
+    color: rgb(182, 22, 22);
+    transition: all;
+
+}
+.navitem:hover{
+    color: azure;
+}
+
+.logo{
+    font-size: 1.3rem;
+    margin-left: 5px;
+    margin-top: 10px;
+}
